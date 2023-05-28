@@ -1460,7 +1460,7 @@ print_species(void)
 	output_msg(sformatf("   %-13s%12s%12s%10s%10s%10s%10s\n\n", "Species",
 			   "Molality", "Activity", "Molality", "Activity", "Gamma", "cm3/mol"));
 #else
-	output_msg(sformatf("   %-13s%12s%12s%10s%10s%10s%11s\n\n", "Species",
+	output_msg(sformatf("   %-13s%12s%12s%10s%10s%10s%12s\n\n", "Species",
 			   "Molality", "Activity", "Molality", "Activity", "Gamma", "cm³/mol"));
 #endif
 /*
